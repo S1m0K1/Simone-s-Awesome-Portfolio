@@ -57,11 +57,11 @@ a:hover {
     border-bottom: solid 0.9rem;
     height: 1rem;
     margin-left: 0rem;
-    width: 18rem;
+    width: 18rem;  
 }
 
 .underline:hover {
-    color: yellow;
+    color: yellow;   
 }
 
 .decoration-mid {
@@ -158,7 +158,23 @@ a:hover {
     margin-left: 2rem;
 }
 
+.char {
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: -0.1rem;
+}
+
+.char:hover {
+    color: yellow;
+}
+
 /* Id Selectors */
+#contact-colour {
+    padding-top: 1rem;
+}
+
 #greeting {
     color: black;
     font-family: Arial, Helvetica, sans-serif;
